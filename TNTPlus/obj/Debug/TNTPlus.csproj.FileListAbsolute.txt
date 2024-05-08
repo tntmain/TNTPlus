@@ -1,0 +1,9 @@
+D:\Unturned Plugins\Plugins\ИСХОДНИКИ\TNTPlus\TNTPlus\bin\Debug\TNTPlus.dll
+D:\Unturned Plugins\Plugins\ИСХОДНИКИ\TNTPlus\TNTPlus\bin\Debug\TNTPlus.pdb
+D:\Unturned Plugins\Plugins\ИСХОДНИКИ\TNTPlus\TNTPlus\bin\Debug\UnityEngine.AnimationModule.dll
+D:\Unturned Plugins\Plugins\ИСХОДНИКИ\TNTPlus\TNTPlus\bin\Debug\UnityEngine.VehiclesModule.dll
+D:\Unturned Plugins\Plugins\ИСХОДНИКИ\TNTPlus\TNTPlus\obj\Debug\TNTPlus.csproj.AssemblyReference.cache
+D:\Unturned Plugins\Plugins\ИСХОДНИКИ\TNTPlus\TNTPlus\obj\Debug\TNTPlus.csproj.CoreCompileInputs.cache
+D:\Unturned Plugins\Plugins\ИСХОДНИКИ\TNTPlus\TNTPlus\obj\Debug\TNTPlus.csproj.CopyComplete
+D:\Unturned Plugins\Plugins\ИСХОДНИКИ\TNTPlus\TNTPlus\obj\Debug\TNTPlus.dll
+D:\Unturned Plugins\Plugins\ИСХОДНИКИ\TNTPlus\TNTPlus\obj\Debug\TNTPlus.pdb
