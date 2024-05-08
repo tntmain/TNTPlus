@@ -1,15 +1,10 @@
-﻿using Rocket.Unturned.Player;
+using Rocket.Unturned.Player;
 using SDG.NetTransport;
 using SDG.Unturned;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using TNTPlus.Main;
 using TNTPlus.Models;
 using UnityEngine;
-using static TNTPlus.Main.Plugin;
 
 namespace TNTPlus.Managers
 {
