@@ -10,7 +10,7 @@ Say(UnturnedPlayer player, string text) - чат игровой с поддер�
 Send(UnturnedPlayer player, string text, EMessageType eMessageType) - отправка сообщений как на видео.
 
 Доступные типы сообщений 
-1. Unknown - обычная чёрная панель
+1. Default - обычная чёрная панель
 2. Error
 3. Succes 
 4. Notification 
