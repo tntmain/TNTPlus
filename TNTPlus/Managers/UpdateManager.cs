@@ -1,7 +1,6 @@
-using System.Collections;
+﻿using System.Collections;
 using UnityEngine;
 using Action = System.Action;
-
 
 namespace TNTPlus.Managers
 {

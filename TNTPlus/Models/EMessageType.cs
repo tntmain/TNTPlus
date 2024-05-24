@@ -8,7 +8,7 @@ namespace TNTPlus.Models
 {
     public enum EMessageType
     {
-        Unknown = 0,
+        Default = 0,
         Error = 1,
         Succes = 2,
         Notification = 3,

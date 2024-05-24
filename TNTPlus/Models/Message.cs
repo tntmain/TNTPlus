@@ -15,7 +15,7 @@ namespace TNTPlus.Models
         public Message()
         {
             message = "";
-            eMessage = EMessageType.Unknown;
+            eMessage = EMessageType.Default;
         }
     }
 }
