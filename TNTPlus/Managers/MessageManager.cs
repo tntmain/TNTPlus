@@ -1,22 +1,26 @@
 ﻿using Rocket.Unturned.Player;
 using SDG.NetTransport;
 using SDG.Unturned;
-using System;
-using TNTPlus.Config;
-using TNTPlus.Main;
-using TNTPlus.Models;
 using UnityEngine;
-using static TNTPlus.Main.Plugin;
+using TNTPlus.Config;
+using TNTPlus.Models;
 
 namespace TNTPlus.Managers
 {
-    public class MessageManager
+    public static class MessageManager
     {
+        private static MessageDataManager messageDataManager;
+
+        public static void Initialize(MessageDataManager dataManager)
+        {
+            messageDataManager = dataManager;
+        }
+
         public static void Say(UnturnedPlayer player, string text, EMessageType eMessageType)
         {
-            var Config = Instance.Configuration.Instance;
+            var config = Main.Plugin.Instance.Configuration.Instance;
 
-            if (Config.UseNotification)
+            if (config.UseNotification)
             {
                 Send(player, text, eMessageType);
                 return;
@@ -29,77 +33,69 @@ namespace TNTPlus.Managers
             ChatManager.serverSendMessage($"{text.Replace("{", "<").Replace("}", ">")}", Color.white, null, player.SteamPlayer(), EChatMode.SAY, null, true);
         }
 
+        public static void SayGlobal(string text)
+        {
+            ChatManager.serverSendMessage($"{text.Replace("{", "<").Replace("}", ">")}", Color.white, null, null, EChatMode.GLOBAL, null, true);
+        }
+
         public static void Send(UnturnedPlayer player, string text, EMessageType eMessageType)
         {
-            var msgData = Instance.messageData;
-
-            if (!msgData.ContainsKey(player))
-            {
-                msgData[player] = new MessageData();
-            }
-
-            if (msgData[player].messages.Count >= 5)
-            {
-                msgData[player].messages.RemoveAt(0);
-            }
-
-            msgData[player].messages.Add(new Message() { message = text, eMessage = eMessageType });
-            msgData[player].LastTime = DateTime.Now;
-
+            messageDataManager.AddMessage(player, new Message { message = text, eMessage = eMessageType });
             UpdateMessage(player);
-
         }
 
         private static void UpdateMessage(UnturnedPlayer player)
         {
-            ITransportConnection Tplayer = player.Player.channel.GetOwnerTransportConnection();
+            ITransportConnection tplayer = player.Player.channel.GetOwnerTransportConnection();
+            var messages = messageDataManager.GetMessages(player);
 
-            var msgData = Instance.messageData;
+            EffectManager.sendUIEffect(7771, 7771, tplayer, true);
 
-            EffectManager.sendUIEffect(7771, 7771, Tplayer, true);
-
-            for (int i = msgData[player].messages.Count - 1; i >= 0; i--)
+            for (int i = messages.Count - 1; i >= 0; i--)
             {
-                int reversedIndex = msgData[player].messages.Count - 1 - i;
-
-                EffectManager.sendUIEffectVisibility(7771, Tplayer, true, $"tnt.messenger.message.{reversedIndex}", true);
-                EffectManager.sendUIEffectText(7771, Tplayer, true, $"tnt.messenger.text.{reversedIndex}", $"{msgData[player].messages[i].message}");
-
-                switch (msgData[player].messages[i].eMessage)
-                {
-                    case EMessageType.Default:
-                        break;
-                    case EMessageType.Error:
-                        EffectManager.sendUIEffectVisibility(7771, Tplayer, true, $"tnt.messenger.error.{reversedIndex}", true);
-                        break;
-                    case EMessageType.Succes:
-                        EffectManager.sendUIEffectVisibility(7771, Tplayer, true, $"tnt.messenger.succes.{reversedIndex}", true);
-                        break;
-                    case EMessageType.Notification:
-                        EffectManager.sendUIEffectVisibility(7771, Tplayer, true, $"tnt.messenger.notification.{reversedIndex}", true);
-                        break;
-                    case EMessageType.Warning:
-                        EffectManager.sendUIEffectVisibility(7771, Tplayer, true, $"tnt.messenger.Warning.{reversedIndex}", true);
-                        break;
-                    default:
-                        break;
-                }
+                int reversedIndex = messages.Count - 1 - i;
+                UpdateMessageUI(tplayer, reversedIndex, messages[i]);
             }
         }
+
         public static void RemoveMessage(UnturnedPlayer player)
         {
-            var msgData = Instance.messageData;
+            ITransportConnection tplayer = player.Player.channel.GetOwnerTransportConnection();
+            var messages = messageDataManager.GetMessages(player);
 
-            ITransportConnection Tplayer = player.Player.channel.GetOwnerTransportConnection();
             for (int i = 0; i < 5; i++)
             {
-                EffectManager.sendUIEffectVisibility(7771, Tplayer, true, $"tnt.messenger.message.{i}", false);
+                EffectManager.sendUIEffectVisibility(7771, tplayer, true, $"tnt.messenger.message.{i}", false);
             }
-            for (int i = msgData[player].messages.Count - 1; i >= 0; i--)
+
+            for (int i = messages.Count - 1; i >= 0; i--)
             {
-                int reversedIndex = msgData[player].messages.Count - 1 - i;
-                EffectManager.sendUIEffectVisibility(7771, Tplayer, true, $"tnt.messenger.message.{reversedIndex}", true);
-                EffectManager.sendUIEffectText(7771, Tplayer, true, $"tnt.messenger.text.{reversedIndex}", $"{msgData[player].messages[i].message}");
+                int reversedIndex = messages.Count - 1 - i;
+                UpdateMessageUI(tplayer, reversedIndex, messages[i]);
+            }
+        }
+
+        private static void UpdateMessageUI(ITransportConnection tplayer, int index, Message message)
+        {
+            EffectManager.sendUIEffectVisibility(7771, tplayer, true, $"tnt.messenger.message.{index}", true);
+            EffectManager.sendUIEffectText(7771, tplayer, true, $"tnt.messenger.text.{index}", $"{message.message}");
+
+            switch (message.eMessage)
+            {
+                case EMessageType.Default:
+                    break;
+                case EMessageType.Error:
+                    EffectManager.sendUIEffectVisibility(7771, tplayer, true, $"tnt.messenger.error.{index}", true);
+                    break;
+                case EMessageType.Succes:
+                    EffectManager.sendUIEffectVisibility(7771, tplayer, true, $"tnt.messenger.succes.{index}", true);
+                    break;
+                case EMessageType.Notification:
+                    EffectManager.sendUIEffectVisibility(7771, tplayer, true, $"tnt.messenger.notification.{index}", true);
+                    break;
+                case EMessageType.Warning:
+                    EffectManager.sendUIEffectVisibility(7771, tplayer, true, $"tnt.messenger.Warning.{index}", true);
+                    break;
             }
         }
     }

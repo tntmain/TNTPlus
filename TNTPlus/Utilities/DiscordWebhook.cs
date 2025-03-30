@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace TNTPlus.Utilities
 {
+    // В РАЗРАБОТКЕ: Этот класс пока не готов к использованию
     public class DiscordWebhook
     {
         private readonly string _webhookUrl;
@@ -80,7 +81,7 @@ namespace TNTPlus.Utilities
                 {
                     title = "Test Embed",
                     description = "This is a test embed",
-                    color = 16711680, // Red color in decimal
+                    color = 16711680,
                     fields = new[] 
                     {
                         new 

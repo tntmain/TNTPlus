@@ -32,16 +32,26 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\IRequestHandler.cs" />
     <Compile Include="Main\Configurations.cs" />
     <Compile Include="Main\Plugin.cs" />
+    <Compile Include="Managers\DataBaseManager.cs" />
+    <Compile Include="Managers\MessageDataManager.cs" />
     <Compile Include="Managers\MessageManager.cs" />
-    <Compile Include="Managers\PlayerManager.cs" />
+    <Compile Include="Managers\NavigationManager.cs" />
+    <Compile Include="Models\PlayerRequest.cs" />
+    <Compile Include="Models\PlayerInfo.cs" />
+    <Compile Include="RequestHandlers\AddSayHandler.cs" />
+    <Compile Include="Utilities\TaskExtensions.cs" />
+    <Compile Include="Utilities\PlayerUtils.cs" />
     <Compile Include="Managers\UpdateManager.cs" />
     <Compile Include="Models\EMessageType.cs" />
+    <Compile Include="Models\NavigationPath.cs" />
     <Compile Include="Models\Message.cs" />
     <Compile Include="Models\MessageData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilities\DiscordWebhook.cs" />
+    <Compile Include="Utilities\WebServer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">

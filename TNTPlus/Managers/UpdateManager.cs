@@ -1,14 +1,14 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
-using Action = System.Action;
 
 namespace TNTPlus.Managers
 {
     public class UpdateManager
     {
-        public static event Action OnSecondTick;
+        public event Action OnSecondTick;
 
-        public static IEnumerator SecondTickRoutine()
+        public IEnumerator SecondTickRoutine()
         {
             while (true)
             {
