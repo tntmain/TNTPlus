@@ -20,11 +20,11 @@ public void StartRoute(UnturnedPlayer player, Vector3 endPoint)
     TNTPlus.Core.navigationManager.BuildRoute(player, start, endPoint, (success, message) => {
         if (success)
         {
-            UnturnedChat.Say(player, "Маршрут готов!", Color.green);
+            MessageManager.Say(player, message, EMessageType.Success);
         }
         else
         {
-            UnturnedChat.Say(player, "Ошибка: " + message, Color.red);
+            MessageManager.Say(player, message, EMessageType.Error);
         }
     });
 }
