@@ -172,7 +172,7 @@ curl -X POST http://localhost:8080/giveitem \
 ```
 
 ## 🔧 Установка
-1. Скачайте последнюю версию TNTPlus из [релизов](https://github.com/YourRepo/TNTPlus/releases).
+1. Скачайте последнюю версию TNTPlus из [релизов](https://github.com/tntmain/TNTPlus/releases).
 2. Поместите `.dll` в папку `Plugins` на вашем сервере.
 3. Перезапустите сервер Unturned.
 
