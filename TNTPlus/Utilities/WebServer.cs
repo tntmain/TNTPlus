@@ -18,7 +18,7 @@ namespace TNTPlus.Utilities
         private readonly string validApiKey;
         private readonly CancellationTokenSource cts;
 
-        public WebServer(string prefix = "http://localhost:8080/", string apiKey = "YourSecretKey123")
+        public WebServer(string prefix = "http://localhost:8080/", string apiKey = "SecretKey")
         {
             listener = new HttpListener();
             listener.Prefixes.Add(prefix);

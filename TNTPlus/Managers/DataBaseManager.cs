@@ -59,7 +59,6 @@ namespace TNTPlus.Managers
                 {
                     SteamId = player.CSteamID,
                     PlayerName = player.DisplayName,
-                    CharacterName = player.CharacterName,
                     SteamName = player.SteamName,
 
                 });

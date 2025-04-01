@@ -2,7 +2,6 @@
 using SDG.NetTransport;
 using SDG.Unturned;
 using UnityEngine;
-using TNTPlus.Config;
 using TNTPlus.Models;
 
 namespace TNTPlus.Managers
@@ -18,7 +17,7 @@ namespace TNTPlus.Managers
 
         public static void Say(UnturnedPlayer player, string text, EMessageType eMessageType)
         {
-            var config = Main.Plugin.Instance.Configuration.Instance;
+            var config = Main.TNTPlus.Core.Configuration.Instance;
 
             if (config.UseNotification)
             {

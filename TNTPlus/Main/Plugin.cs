@@ -1,13 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using Rocket.Core.Plugins;
 using Rocket.Unturned;
 using Rocket.Unturned.Player;
-using Rocket.Unturned.Chat;
-using Rocket.Unturned.Events;
 using SDG.Unturned;
-using UnityEngine;
-using TNTPlus.Models;
 using TNTPlus.Managers;
 using TNTPlus.Config;
 using TNTPlus.Utilities;
@@ -16,21 +11,21 @@ using TNTPlus.RequestHandlers;
 
 namespace TNTPlus.Main
 {
-    public class Plugin : RocketPlugin<Configurations>
+    public class TNTPlus : RocketPlugin<Configurations>
     {
-        public static Plugin Instance;
+        public static TNTPlus Core;
         public static DataBaseManager dataBaseManager;
 
         private WebServer webServer;
 
         private MessageDataManager messageDataManager;
-        private NavigationManager navigationManager;
+        public NavigationManager navigationManager;
         private UpdateManager updateManager;
 
 
         protected override void Load()
         {
-            Instance = this;
+            Core = this;
             var config = Configuration.Instance;
 
             SubscribeToEvents();
@@ -39,7 +34,7 @@ namespace TNTPlus.Main
             InitializeWebServer(config);
             StartUpdateManager();
 
-            Rocket.Core.Logging.Logger.Log($"TNTPlugins load success | version {System.Reflection.Assembly.GetExecutingAssembly().GetName().Version}");
+            Rocket.Core.Logging.Logger.Log($"TNTPlus load success | version {System.Reflection.Assembly.GetExecutingAssembly().GetName().Version}");
             Rocket.Core.Logging.Logger.Log($"vk: https://vk.com/tntplugins");
         }
 
@@ -49,7 +44,7 @@ namespace TNTPlus.Main
             UnsubscribeFromEvents();
             CleanupManagers();
 
-            Instance = null;
+            Core = null;
             Rocket.Core.Logging.Logger.Log("Плагин TNTPlus выгружен.");
         }
 
@@ -82,11 +77,23 @@ namespace TNTPlus.Main
 
         private void InitializeWebServer(Configurations config)
         {
-            if (config.WerbServer)
+            if (config.ApiKey == "SecretKey")
             {
-                webServer = new WebServer("http://localhost:8080/", config.ApiKey);
-                webServer.Start();
-                webServer.RegisterHandler(new AddSayHandler());
+                config.ApiKey = Guid.NewGuid().ToString();
+                Configuration.Save();
+            }
+            if (config.WebServer)
+            {
+                try
+                {
+                    webServer = new WebServer(config.Host, config.ApiKey);
+                    webServer.Start();
+                    webServer.RegisterHandler(new AddSayHandler());
+                }
+                catch (Exception ex)
+                {
+                    Rocket.Core.Logging.Logger.LogError($"Ошибка запуска веб-сервера: {ex.Message}");
+                }
             }
         }
 

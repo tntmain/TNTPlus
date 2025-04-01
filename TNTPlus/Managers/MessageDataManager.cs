@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using Rocket.Unturned.Player;
 using TNTPlus.Models;
-using TNTPlus.Managers;
 
 namespace TNTPlus.Managers
 {
