@@ -70,7 +70,7 @@ curl http://localhost:8080/
 curl -X POST http://localhost:8080/say \
 -H "Content-Type: application/json" \
 -H "X-API-Key: YourSecretKey" \
--d '{"PlayerId": "all", "Text": "Всем привет!"}'
+-d '{"PlayerId": "all", "Text": "Всем привет"}'
 ```
  🔹 SayHandler встроен в плагин 
 ```csharp
