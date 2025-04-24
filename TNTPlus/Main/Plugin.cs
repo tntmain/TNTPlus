@@ -20,7 +20,6 @@ namespace TNTPlus.Main
 
         private MessageDataManager messageDataManager;
         public NavigationManager navigationManager;
-        private UpdateManager updateManager;
 
 
         protected override void Load()
@@ -88,7 +87,7 @@ namespace TNTPlus.Main
                 {
                     webServer = new WebServer(config.Host, config.ApiKey);
                     webServer.Start();
-                    webServer.RegisterHandler(new AddSayHandler());
+                    webServer.RegisterHandler(new SayHandler());
                 }
                 catch (Exception ex)
                 {
@@ -99,15 +98,14 @@ namespace TNTPlus.Main
 
         private void StartUpdateManager()
         {
-            updateManager = new UpdateManager();
-            StartCoroutine(updateManager.SecondTickRoutine());
-            updateManager.OnSecondTick += UpdateManager_OnSecondTick;
+            StartCoroutine(UpdateManager.SecondTickRoutine());
+            UpdateManager.OnSecondTick += UpdateManager_OnSecondTick;
         }
 
         private void UnsubscribeFromEvents()
         {
             U.Events.OnPlayerConnected -= Events_OnPlayerConnected;
-            updateManager.OnSecondTick -= UpdateManager_OnSecondTick;
+            UpdateManager.OnSecondTick -= UpdateManager_OnSecondTick;
         }
         private void CleanupManagers()
         {

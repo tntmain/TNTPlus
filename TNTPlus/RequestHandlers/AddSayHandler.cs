@@ -12,7 +12,7 @@ using UnityEngine;
 
 namespace TNTPlus.RequestHandlers
 {
-    public class AddSayHandler : IRequestHandler
+    public class SayHandler : IRequestHandler
     {
         public string Endpoint => "/say";
 

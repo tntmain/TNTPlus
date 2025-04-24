@@ -6,9 +6,9 @@ namespace TNTPlus.Managers
 {
     public class UpdateManager
     {
-        public event Action OnSecondTick;
+        public static event Action OnSecondTick;
 
-        public IEnumerator SecondTickRoutine()
+        public static IEnumerator SecondTickRoutine()
         {
             while (true)
             {
@@ -16,5 +16,7 @@ namespace TNTPlus.Managers
                 yield return new WaitForSeconds(1f);
             }
         }
+
     }
+    
 }
