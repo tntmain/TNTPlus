@@ -14,7 +14,7 @@ namespace TNTPlus.Main
     public class TNTPlus : RocketPlugin<Configurations>
     {
         public static TNTPlus Core;
-        public static DataBaseManager dataBaseManager;
+        public static TplayersData tplayersData;
 
         private WebServer webServer;
 
@@ -62,7 +62,7 @@ namespace TNTPlus.Main
 
         private void InitializeManagers(Configurations config)
         {
-            dataBaseManager = new DataBaseManager();
+            tplayersData = new TplayersData();
 
             messageDataManager = new MessageDataManager();
             MessageManager.Initialize(messageDataManager);
@@ -113,7 +113,7 @@ namespace TNTPlus.Main
         }
         private void Events_OnPlayerConnected(UnturnedPlayer player)
         {
-            dataBaseManager.RegisterPlayer(player);
+            tplayersData.RegisterPlayer(player);
         }
         private void UpdateManager_OnSecondTick()
         {

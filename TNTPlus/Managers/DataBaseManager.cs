@@ -8,13 +8,13 @@ using TNTPlus.Models;
 
 namespace TNTPlus.Managers
 {
-    public class DataBaseManager
+    public class TplayersData
     {
         private string DataBaseFilePath;
         private List<PlayerInfo> playerInfo;
-        public static DataBaseManager dataBaseManager;
+        public static TplayersData dataBaseManager;
 
-        public DataBaseManager()
+        public TplayersData()
         {
             dataBaseManager = this;
             DataBaseFilePath = Path.Combine(Environment.CurrentDirectory, "Players", "Players.json");

@@ -1,0 +1,367 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F18DDBD7-F1B0-47EC-A53A-007B0796D1FB}|TNTPlus.csproj|D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F18DDBD7-F1B0-47EC-A53A-007B0796D1FB}|TNTPlus.csproj|solutionrelative:properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|TNTPlus||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F18DDBD7-F1B0-47EC-A53A-007B0796D1FB}|TNTPlus.csproj|D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\utilities\\webserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F18DDBD7-F1B0-47EC-A53A-007B0796D1FB}|TNTPlus.csproj|solutionrelative:utilities\\webserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F18DDBD7-F1B0-47EC-A53A-007B0796D1FB}|TNTPlus.csproj|d:\\unturned plugins\\tntplus\\tntplus\\main\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F18DDBD7-F1B0-47EC-A53A-007B0796D1FB}|TNTPlus.csproj|solutionrelative:main\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F18DDBD7-F1B0-47EC-A53A-007B0796D1FB}|TNTPlus.csproj|D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\main\\configurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F18DDBD7-F1B0-47EC-A53A-007B0796D1FB}|TNTPlus.csproj|solutionrelative:main\\configurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F18DDBD7-F1B0-47EC-A53A-007B0796D1FB}|TNTPlus.csproj|D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\managers\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F18DDBD7-F1B0-47EC-A53A-007B0796D1FB}|TNTPlus.csproj|solutionrelative:managers\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F18DDBD7-F1B0-47EC-A53A-007B0796D1FB}|TNTPlus.csproj|D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\managers\\updatemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F18DDBD7-F1B0-47EC-A53A-007B0796D1FB}|TNTPlus.csproj|solutionrelative:managers\\updatemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F18DDBD7-F1B0-47EC-A53A-007B0796D1FB}|TNTPlus.csproj|D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\managers\\navigationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F18DDBD7-F1B0-47EC-A53A-007B0796D1FB}|TNTPlus.csproj|solutionrelative:managers\\navigationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F18DDBD7-F1B0-47EC-A53A-007B0796D1FB}|TNTPlus.csproj|D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\models\\playerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F18DDBD7-F1B0-47EC-A53A-007B0796D1FB}|TNTPlus.csproj|solutionrelative:models\\playerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F18DDBD7-F1B0-47EC-A53A-007B0796D1FB}|TNTPlus.csproj|D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\interfaces\\irequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F18DDBD7-F1B0-47EC-A53A-007B0796D1FB}|TNTPlus.csproj|solutionrelative:interfaces\\irequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F18DDBD7-F1B0-47EC-A53A-007B0796D1FB}|TNTPlus.csproj|D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\models\\emessagetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F18DDBD7-F1B0-47EC-A53A-007B0796D1FB}|TNTPlus.csproj|solutionrelative:models\\emessagetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F18DDBD7-F1B0-47EC-A53A-007B0796D1FB}|TNTPlus.csproj|D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\requesthandlers\\addsayhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F18DDBD7-F1B0-47EC-A53A-007B0796D1FB}|TNTPlus.csproj|solutionrelative:requesthandlers\\addsayhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F18DDBD7-F1B0-47EC-A53A-007B0796D1FB}|TNTPlus.csproj|D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\managers\\messagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F18DDBD7-F1B0-47EC-A53A-007B0796D1FB}|TNTPlus.csproj|solutionrelative:managers\\messagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F18DDBD7-F1B0-47EC-A53A-007B0796D1FB}|TNTPlus.csproj|D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\utilities\\playerutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F18DDBD7-F1B0-47EC-A53A-007B0796D1FB}|TNTPlus.csproj|solutionrelative:utilities\\playerutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F18DDBD7-F1B0-47EC-A53A-007B0796D1FB}|TNTPlus.csproj|D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\models\\playerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F18DDBD7-F1B0-47EC-A53A-007B0796D1FB}|TNTPlus.csproj|solutionrelative:models\\playerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F18DDBD7-F1B0-47EC-A53A-007B0796D1FB}|TNTPlus.csproj|D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\models\\navigationpath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F18DDBD7-F1B0-47EC-A53A-007B0796D1FB}|TNTPlus.csproj|solutionrelative:models\\navigationpath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F18DDBD7-F1B0-47EC-A53A-007B0796D1FB}|TNTPlus.csproj|D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\models\\messagedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F18DDBD7-F1B0-47EC-A53A-007B0796D1FB}|TNTPlus.csproj|solutionrelative:models\\messagedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F18DDBD7-F1B0-47EC-A53A-007B0796D1FB}|TNTPlus.csproj|D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F18DDBD7-F1B0-47EC-A53A-007B0796D1FB}|TNTPlus.csproj|solutionrelative:models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F18DDBD7-F1B0-47EC-A53A-007B0796D1FB}|TNTPlus.csproj|D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\managers\\messagedatamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F18DDBD7-F1B0-47EC-A53A-007B0796D1FB}|TNTPlus.csproj|solutionrelative:managers\\messagedatamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F18DDBD7-F1B0-47EC-A53A-007B0796D1FB}|TNTPlus.csproj|D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\utilities\\taskextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F18DDBD7-F1B0-47EC-A53A-007B0796D1FB}|TNTPlus.csproj|solutionrelative:utilities\\taskextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F18DDBD7-F1B0-47EC-A53A-007B0796D1FB}|TNTPlus.csproj|D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\utilities\\discordwebhook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F18DDBD7-F1B0-47EC-A53A-007B0796D1FB}|TNTPlus.csproj|solutionrelative:utilities\\discordwebhook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F18DDBD7-F1B0-47EC-A53A-007B0796D1FB}|TNTPlus.csproj|d:\\unturned plugins\\tntplus\\tntplus\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Plugin.cs",
+              "DocumentMoniker": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\Main\\Plugin.cs",
+              "RelativeDocumentMoniker": "Main\\Plugin.cs",
+              "ToolTip": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\Main\\Plugin.cs",
+              "RelativeToolTip": "Main\\Plugin.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAWwHcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T13:39:01.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Properties\\AssemblyInfo.cs",
+              "ToolTip": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T21:44:35.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DataBaseManager.cs",
+              "DocumentMoniker": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\Managers\\DataBaseManager.cs",
+              "RelativeDocumentMoniker": "Managers\\DataBaseManager.cs",
+              "ToolTip": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\Managers\\DataBaseManager.cs",
+              "RelativeToolTip": "Managers\\DataBaseManager.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAcwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T16:57:36.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EMessageType.cs",
+              "DocumentMoniker": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\Models\\EMessageType.cs",
+              "RelativeDocumentMoniker": "Models\\EMessageType.cs",
+              "ToolTip": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\Models\\EMessageType.cs",
+              "RelativeToolTip": "Models\\EMessageType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T13:38:47.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IRequestHandler.cs",
+              "DocumentMoniker": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\Interfaces\\IRequestHandler.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IRequestHandler.cs",
+              "ToolTip": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\Interfaces\\IRequestHandler.cs",
+              "RelativeToolTip": "Interfaces\\IRequestHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T20:27:55.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Configurations.cs",
+              "DocumentMoniker": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\Main\\Configurations.cs",
+              "RelativeDocumentMoniker": "Main\\Configurations.cs",
+              "ToolTip": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\Main\\Configurations.cs",
+              "RelativeToolTip": "Main\\Configurations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T13:44:16.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WebServer.cs",
+              "DocumentMoniker": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\Utilities\\WebServer.cs",
+              "RelativeDocumentMoniker": "Utilities\\WebServer.cs",
+              "ToolTip": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\Utilities\\WebServer.cs",
+              "RelativeToolTip": "Utilities\\WebServer.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAqwKAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T18:26:40.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PlayerRequest.cs",
+              "DocumentMoniker": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\Models\\PlayerRequest.cs",
+              "RelativeDocumentMoniker": "Models\\PlayerRequest.cs",
+              "ToolTip": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\Models\\PlayerRequest.cs",
+              "RelativeToolTip": "Models\\PlayerRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T20:28:43.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UpdateManager.cs",
+              "DocumentMoniker": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\Managers\\UpdateManager.cs",
+              "RelativeDocumentMoniker": "Managers\\UpdateManager.cs",
+              "ToolTip": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\Managers\\UpdateManager.cs",
+              "RelativeToolTip": "Managers\\UpdateManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T13:38:48.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TNTPlus",
+              "DocumentMoniker": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\TNTPlus.csproj",
+              "RelativeDocumentMoniker": "TNTPlus.csproj",
+              "ToolTip": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\TNTPlus.csproj",
+              "RelativeToolTip": "TNTPlus.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-30T21:44:31.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NavigationManager.cs",
+              "DocumentMoniker": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\Managers\\NavigationManager.cs",
+              "RelativeDocumentMoniker": "Managers\\NavigationManager.cs",
+              "ToolTip": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\Managers\\NavigationManager.cs",
+              "RelativeToolTip": "Managers\\NavigationManager.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAEwBQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T13:42:42.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PlayerUtils.cs",
+              "DocumentMoniker": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\Utilities\\PlayerUtils.cs",
+              "RelativeDocumentMoniker": "Utilities\\PlayerUtils.cs",
+              "ToolTip": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\Utilities\\PlayerUtils.cs",
+              "RelativeToolTip": "Utilities\\PlayerUtils.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T13:38:48.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MessageManager.cs",
+              "DocumentMoniker": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\Managers\\MessageManager.cs",
+              "RelativeDocumentMoniker": "Managers\\MessageManager.cs",
+              "ToolTip": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\Managers\\MessageManager.cs",
+              "RelativeToolTip": "Managers\\MessageManager.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAAACIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T13:38:49.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddSayHandler.cs",
+              "DocumentMoniker": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\RequestHandlers\\AddSayHandler.cs",
+              "RelativeDocumentMoniker": "RequestHandlers\\AddSayHandler.cs",
+              "ToolTip": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\RequestHandlers\\AddSayHandler.cs",
+              "RelativeToolTip": "RequestHandlers\\AddSayHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T20:41:19.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PlayerInfo.cs",
+              "DocumentMoniker": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\Models\\PlayerInfo.cs",
+              "RelativeDocumentMoniker": "Models\\PlayerInfo.cs",
+              "ToolTip": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\Models\\PlayerInfo.cs",
+              "RelativeToolTip": "Models\\PlayerInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T17:03:25.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NavigationPath.cs",
+              "DocumentMoniker": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\Models\\NavigationPath.cs",
+              "RelativeDocumentMoniker": "Models\\NavigationPath.cs",
+              "ToolTip": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\Models\\NavigationPath.cs",
+              "RelativeToolTip": "Models\\NavigationPath.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T13:45:04.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MessageData.cs",
+              "DocumentMoniker": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\Models\\MessageData.cs",
+              "RelativeDocumentMoniker": "Models\\MessageData.cs",
+              "ToolTip": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\Models\\MessageData.cs",
+              "RelativeToolTip": "Models\\MessageData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T13:38:45.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Message.cs",
+              "DocumentMoniker": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\Models\\Message.cs",
+              "RelativeDocumentMoniker": "Models\\Message.cs",
+              "ToolTip": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\Models\\Message.cs",
+              "RelativeToolTip": "Models\\Message.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T13:38:46.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MessageDataManager.cs",
+              "DocumentMoniker": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\Managers\\MessageDataManager.cs",
+              "RelativeDocumentMoniker": "Managers\\MessageDataManager.cs",
+              "ToolTip": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\Managers\\MessageDataManager.cs",
+              "RelativeToolTip": "Managers\\MessageDataManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T13:49:21.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TaskExtensions.cs",
+              "DocumentMoniker": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\Utilities\\TaskExtensions.cs",
+              "RelativeDocumentMoniker": "Utilities\\TaskExtensions.cs",
+              "ToolTip": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\Utilities\\TaskExtensions.cs",
+              "RelativeToolTip": "Utilities\\TaskExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T21:32:55.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DiscordWebhook.cs",
+              "DocumentMoniker": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\Utilities\\DiscordWebhook.cs",
+              "RelativeDocumentMoniker": "Utilities\\DiscordWebhook.cs",
+              "ToolTip": "D:\\Unturned Plugins\\TNTPlus\\TNTPlus\\Utilities\\DiscordWebhook.cs",
+              "RelativeToolTip": "Utilities\\DiscordWebhook.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T13:38:33.399Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
